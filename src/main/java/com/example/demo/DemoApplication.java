@@ -9,17 +9,12 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		
-		SortAlgorithm sortAlgorithm = new BubbleSortAlgorithm();
-		ComplexBusinessService businessService = new ComplexBusinessService(sortAlgorithm);
+		//SortAlgorithm sortAlgorithm = new BubbleSortAlgorithm();
+		//ComplexBusinessService businessService = new ComplexBusinessService(sortAlgorithm);
 		
 		
 		
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
-
-	
-
-
-
 }
