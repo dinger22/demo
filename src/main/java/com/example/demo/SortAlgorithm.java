@@ -1,5 +1,5 @@
 package com.example.demo;
 
-public class SortAlgorithm {
-
+public interface SortAlgorithm {
+	public int[] sort(int[] numbers);
 }

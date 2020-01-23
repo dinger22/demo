@@ -9,10 +9,9 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		
-		SortAlgorithm sortAlgorithm = new BubbleSortAlgorithm();
-		ComplexBusinessService businessService = new ComplexBusinessService(sortAlgorithm);
-		
-		
+		BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
+		int result = binarySearch.binarySearch(new int[3], 3);
+		System.out.println(result);
 		
 		SpringApplication.run(DemoApplication.class, args);
 	}
