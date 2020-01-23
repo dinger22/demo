@@ -30,3 +30,7 @@ public class DemoApplication {
 //	2.2 finish creating
 //3.Do autowire: set binarySearch.sortAlgorithm = bubbleSortAlgorithm
 //4.finished creatinng instance of bean 'binarySearch'
+
+
+
+//real world example: N-TIRE
