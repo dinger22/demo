@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class BinarySearchImpl{
 	
 	@Autowired
@@ -15,7 +15,7 @@ public class BinarySearchImpl{
 	private SortAlgorithm sortAlgorithm;
 
 	public int binarySearch(int[] numbers, int numberToSearchFor) {
-		// logic here
+
 		int[] sortedNums = sortAlgorithm.sort(numbers);
 		System.out.println(sortAlgorithm);
 
